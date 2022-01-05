@@ -1,0 +1,2 @@
+DELETE  https://5cfa1e8ef26e8c00146d02be.mockapi.io/api/users/1
+content-type: application/json

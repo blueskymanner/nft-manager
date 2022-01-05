@@ -1,0 +1,83 @@
+{
+  "name": "good-meta",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8000",
+    "build": "next build",
+    "build:dev": "ANALYZE=true next build",
+    "start": "next start",
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,ts}\""
+  },
+  "lint-staged": {
+    "{*.js, *.ts, *.tsx}": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && pretty-quick --staged"
+    }
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.5.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@hookform/resolvers": "^2.8.2",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.51",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.1",
+    "@mui/x-data-grid": "^5.1.0",
+    "@onflow/fcl": "^0.0.77",
+    "@onflow/types": "^0.0.5",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@stripe/react-stripe-js": "^1.6.0",
+    "@stripe/stripe-js": "^1.20.3",
+    "axios": "^0.21.4",
+    "clsx": "^1.1.1",
+    "date-fns": "^2.27.0",
+    "doka": "^0.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "^11.1.2",
+    "notistack": "^2.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-dropzone": "^11.4.2",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^7.18.0",
+    "react-moment": "^1.1.1",
+    "react-redux": "^7.2.5",
+    "react-slick": "^0.28.1",
+    "react-truncate": "^2.4.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-persist-transform-filter": "^0.0.20",
+    "stripe": "^8.184.0",
+    "typescript": "4.4.3",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.0.1",
+    "@types/lodash": "^4.14.175",
+    "@types/node": "^16.11.4",
+    "@types/react": "17.0.26",
+    "@types/react-google-recaptcha": "^2.1.2",
+    "@types/react-redux": "^7.1.18",
+    "@types/react-truncate": "^2.3.4",
+    "@types/redux": "^3.6.0",
+    "@types/redux-logger": "^3.0.9",
+    "@types/webpack-env": "^1.16.2",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "prettier": "^2.4.1"
+  }
+}

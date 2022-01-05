@@ -1,0 +1,122 @@
+export const mockData = [
+  {
+    id: 1,
+    name: 'Alana Blanchard',
+    ethTotal: 1600.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist1.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 2,
+    name: 'Zhuravleva Anastasia',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist2.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 3,
+    name: 'Thomas Nguka',
+    ethTotal: 1600.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist3.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 4,
+    name: 'Bobby Nguyen',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist4.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 5,
+    name: 'Ed Sheeran',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist1.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 6,
+    name: 'Alana Blanchard',
+    ethTotal: 1600.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist2.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 7,
+    name: 'Zhuravleva Anastasia',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist2.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 8,
+    name: 'Thomas Nguka',
+    ethTotal: 1600.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist3.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 9,
+    name: 'Bobby Nguyen',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist1.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  },
+  {
+    id: 10,
+    name: 'Ed Sheeran',
+    ethTotal: 4304.67,
+    address: 'Dublin, Irland',
+    communityTotal: '30K',
+    avatar: 'artist4.jpg',
+    coverImage: '',
+    igLink: '',
+    fbLink: '',
+    ytLink: ''
+  }
+];
